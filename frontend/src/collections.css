@@ -1,0 +1,32 @@
+.collections-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.collection-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 18px 8px;
+  border-bottom: 1px solid #ddd;
+  text-decoration: none;
+  color: inherit;
+}
+
+.collection-row:first-child {
+  border-top: 1px solid #ddd;
+}
+
+.collection-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.collection-description {
+  font-size: 14px;
+  color: #999;
+}

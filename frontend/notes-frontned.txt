@@ -1,0 +1,11 @@
+Explore A discovery feed — browsable quotes sorted by trending, newest, most saved, 
+or staff picks. Think infinite scroll with filter chips for mood or length.
+ Essentially the homepage's "Recent Quotes" section expanded into a full browsable library.
+
+Authors A directory of all authors — searchable, filterable by era (Ancient, Medieval, Modern, Contemporary) 
+or field (Philosophy, Literature, Politics, Science). Each author gets a profile page with their bio,
+ all their quotes, and related authors.
+
+Collections Curated sets of quotes grouped around a theme — "Quotes for Monday mornings,"
+ "What great writers said about death," "The Stoics on anger." Think of it like playlists.
+  Could be editor-curated or user-created (if there's an account system).

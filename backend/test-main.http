@@ -1,0 +1,10 @@
+### Get fruits
+GET http://localhost:8000/quotes
+
+### Add fruit
+POST http://localhost:8000/quotes
+Content-Type: application/json
+
+{
+    "name": "apple"
+}

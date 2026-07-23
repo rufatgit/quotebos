@@ -1,0 +1,35 @@
+.collection-detail {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.collection-detail-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.collection-detail-description {
+  font-size: 15px;
+  color: #999;
+  margin-bottom: 2rem;
+}
+
+.collection-detail-quotes {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.collection-quote-card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.collection-loading {
+  text-align: center;
+  padding: 2rem;
+}

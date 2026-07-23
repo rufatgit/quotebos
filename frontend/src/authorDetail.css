@@ -1,0 +1,78 @@
+.author-detail {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.author-detail-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.author-detail-name {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.author-detail-dates {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+.author-detail-profession {
+  font-size: 14px;
+  font-style: italic;
+  color: #999;
+  margin-bottom: 1rem;
+}
+
+.author-detail-bio {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.author-detail-loading {
+  text-align: center;
+  padding: 2rem;
+}
+
+.author-detail-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.author-detail-actions button {
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.author-detail-actions button:hover {
+  background: #222;
+}
+
+.author-detail input {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 12px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+}

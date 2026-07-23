@@ -1,0 +1,131 @@
+.qod-container {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.qod-label {
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 1.5rem;
+}
+
+.qod-text {
+  font-size: 26px;
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.qod-author {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.qod-loading {
+  text-align: center;
+  padding: 2rem;
+}
+
+.qod-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 3rem 2rem;
+  text-align: center;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('C:/MAIN/DEV/PYTHON/FastApi+React/quotebos/frontend/src/assets/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  /* remove the rounded corners + centered max-width since it's now full page */
+  margin: 0;
+  max-width: none;
+  border-radius: 0;
+}
+
+.qod-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 0;
+}
+
+.qod-label,
+.qod-text,
+.qod-author {
+  position: relative;
+  z-index: 1;
+}
+
+.qod-history {
+  max-width: 700px;
+  margin: 2rem auto 4rem;
+  padding: 0 2rem;
+}
+
+.qod-history-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.qod-history-item {
+  padding: 1.2rem 0;
+  border-bottom: 1px solid #333;
+}
+
+.qod-history-item:last-child {
+  border-bottom: none;
+}
+
+.qod-history-date {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.qod-history-quote {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0.4rem 0;
+}
+
+.qod-history-author {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ccc;
+}
+
+.qod-author-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.qod-author-link:hover {
+  color: #ccc;
+    text-decoration: underline;
+
+}
+
+.qod-main-author-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.qod-main-author-link:hover {
+  text-decoration: underline;
+}

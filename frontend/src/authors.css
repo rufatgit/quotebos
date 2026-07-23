@@ -1,0 +1,37 @@
+.authors-list {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.author-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.author-row:first-child {
+  border-top: 1px solid #ddd;
+}
+
+.author-photo {
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  min-height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.author-name {
+  font-weight: 500;
+  font-size: 16px;
+} 
+
+.author-row {
+  text-decoration: none;
+  color: inherit;
+}
